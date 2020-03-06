@@ -1,0 +1,20 @@
+<!-- Listing 3-2. Transaction Input File -->
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<transaction>
+        <transaction>
+	        <transactionId>1</transactionId>
+		<accountId>15<accountId>
+		<credit>5.62</credit>
+		<debit>1.95</debit>
+		<timestamp>2017-07-12 12:05:21</timestamp>
+	</transaction>
+	<transaction>
+	        <transactionId>2</transactionId>
+		<accountId>68</accountId>
+		<credit>5.27</credit>
+		<debit>6.26</debit>
+		<timestamp>2017-07-23 16:28:37</timestamp>
+	</transaction>
+...
+</transactions>
