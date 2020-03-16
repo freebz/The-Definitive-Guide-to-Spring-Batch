@@ -1,0 +1,18 @@
+Listing 4-18. The Results of the RunIdIncrementer After Three Executions
+
+mysql> select job_execution_id as id, type_cd as type, key_name as name, string_val,
+long_val, identifying from SPRING_BATCH.BATCH_JOB_EXECUTION_PARAMS;
++----+--------+----------+------------+----------+-------------+
+| id | type   | name     | string_val | long_val | identifying |
++----+--------+----------+------------+----------+-------------+
+|  1 | STRING | name     | Michael    |        0 | Y           |
+|  1 | LONG   | run.id   |            |        1 | Y           |
+|  1 | STRING | fileName | foo.csv    |        0 | Y           |
+|  2 | STRING | name     | Michael    |        0 | Y           |
+|  2 | STRING | fileName | foo.csv    |        0 | Y           |
+|  2 | LONG   | run.id   |            |        2 | Y           |
+|  3 | STRING | name     | Michael    |        0 | Y           |
+|  3 | STRING | fileName | foo.csv    |        0 | Y           |
+|  3 | LONG   | run.id   |            |        3 | Y           |
++----+--------+----------+------------+----------+-------------+
+9 rows in set (0.00 sec)

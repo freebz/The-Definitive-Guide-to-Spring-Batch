@@ -1,0 +1,19 @@
+Listing 4-24. JobExecutionListener Output
+
+...
+2019-01-16 21:22:25.094  INFO 9006 --- [           main] o.s.b.a.b.JobLauncherCommandLine
+Runner   : Running default command line with: [fileName=foo.csv, name=Michael]
+2019-01-16 21:22:25.186  INFO 9006 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=basicJob]] launched with the following parameters:
+[{name=Michael, currentDate=1547695345140, fileName=foo.csv}]
+basicJob is beginning execution
+2019-01-16 21:22:25.217  INFO 9006 -- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [step1]
+Hello, Michael!
+fileName = foo.csv
+basicJob has completed with the status COMPLETED
+2019-01-16 21:22:25.281  INFO 9006 -- [           main] o.s.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=basicJob]] completed with the following parameters:
+[{name=Michael, currentDate=1547695345140, fileName=foo.csv}] and the following status:
+[COMPLETED]
+...

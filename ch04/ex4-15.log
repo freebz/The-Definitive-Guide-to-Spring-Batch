@@ -1,0 +1,16 @@
+Listing 4-15. Output with all parameters provided
+
+...
+2019-01-16 15:48:41.124  INFO 4044 --- [           main] o.s.b.a.b.JobLauncherCommandLine
+Runner   : Running default command line with: [fileName=foo.csv, name=bar]
+2019-01-16 15:48:41.216  INFO 4044 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=basicJob]] launched with the follwing parameters:
+[{name=bar, fileName=foo.csv}]
+2019-01-16 15:48:41.249  INFO 4044 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [step1]
+Hello, bar!
+fileName = foo.csv!
+2019-01-16 15:48:41.320  INFO 4044 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=basicJob]] completed with the following
+parameters: [{name=bar, fileName=foo.csv}] and the follwing status: [COMPLETED]
+...

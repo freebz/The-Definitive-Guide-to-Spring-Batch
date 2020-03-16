@@ -1,0 +1,15 @@
+Listing 4-3. The First Execution with Parameters
+
+...
+2019-01-16 11:09:29.562  INFO 74578 --- [           main] o.s.b.a.b.JobLauncherCommandLine
+Runner   : Running default command line with: [foo=bar]
+2019-01-16 11:09:29.669  INFO 74578 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=basicJob]] launched with the following parameters:
+[{foo=bar}]
+2019-01-16 11:09:29.714  INFO 74578 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [step1]
+Hello, world!
+2019-01-16 11:09:29.793  INFO 74578 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=basicJob]] completed with the following parameters:
+[{foo=bar}] and the following status: [COMPLETED]
+...

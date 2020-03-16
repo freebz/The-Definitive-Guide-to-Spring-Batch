@@ -1,0 +1,12 @@
+Listing 4-21. BATCH_JOB_EXECUTION_PARAMS after using the DailyJobTimestamper
+
+mysql> select job_execution_id as id, type_cd as type, key_name as name, string_val as s_
+val, date_val as d_val, identifying from SPRING_BATCH.BATCH_JOB_EXECUTION_PARAMS;
++----+--------+-------------+---------+---------------------+-------------+
+| id | type   | name        | s_val   | d_val               | identifying |
+|----+--------+-------------+---------+---------------------+-------------+
+|  1 | STRING | name        | Michale | 1969-12-31 18:00:00 | Y           |
+|  1 | DATE   | currentDate |         | 2019-01-16 16:40:55 | Y           |
+|  1 | STRING | fileName    | foo.csv | 1969-12-31 18:00:00 | Y           |
++----+--------+-------------+---------+---------------------+-------------+
+3 rows in set (0.00 sec)

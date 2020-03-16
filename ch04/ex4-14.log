@@ -1,0 +1,26 @@
+Listing 4-14. JobParameters Validation Failure Output
+
+...
+2019-01-16 15:48:20.638  INFO 4023 --- [           main] o.s.b.a.b.JobLauncherCommandLine
+Runner   : Running default command line with: []
+2019-01-16 15:48:20.689  INFO 4023 --- [           main]
+ConditionEvaluationReportLoggingListener :
+
+Error starting ApplicationContext. To display the conditions report re-run your application
+with 'debug' enabled.
+2019-01-16 15:48:20.696 ERROR 4023 --- [           main] o.s.boot.SpringApplication        :
+Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+      at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:816)
+      [spring-boot-2.1.2.RELEASE.jar!/:2.1.2.RELEASE]
+      at
+...
+Caused by: org.springframework.batch.core.JobParametersInvalidException: fileName parameter
+is missing
+      at com.example.Chapter04.batch.ParameterValidator.validate(ParameterValidator.java:33)
+      ~[classes!/:0.0.1-SNAPSHOT]
+      at org.springframework.batch.core.job.CompositeJobParametersValidator.validate(Composite
+      JobParametersValidator.java:49) ~[spring-batch-core-4.1.1.RELEASE.jar!/:4.1.1.RELEASE]
+      at
+...

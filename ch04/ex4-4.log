@@ -1,0 +1,24 @@
+Listing 4-4. What Happens When You Try to Run a Job Twice with the Same Parameters
+
+...
+2019-01-16 11:09:34.250  INFO 74588 --- [           main] o.s.b.a.b.JobLauncherCommandLine
+Runner   : Running default command line with: [foo=bar]
+2019-01-16 11:09:34.436  INFO 74588 --- [           main] ConditionEvaluationReport
+LoggingListener :
+
+Error starting ApplicationContext. To display the conditions report re-run your application
+with 'debug' enabled.
+2019-01-16 11:09:34.447 ERROR 74588 --- [           main] o.s.boot.SpringApplication       :
+Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+      at org.springframework.boot.SpringApoplication.callRunner(SpringApplication.java:816)
+      [spring-boot-2.1.2.RELEASE.jar!/:2.1.2.RELEASE]
+      ...
+Caused by: org.springframework.batch.core.repository.JobInstanceAlreadyCompleteException:
+A job instance already exists and is complete for parameters={foo=bar}.  If you wnat to run
+this job again, change the parameters.
+      at org.springframework.batch.core.repository.support.SimpleJobRepository.createJob
+      Execution(SimpleJobRepository.java:132) ~[spring-batch-core-4.1.1.RELEASE.jar!/:
+      4.1.1.RELEASE]
+...
