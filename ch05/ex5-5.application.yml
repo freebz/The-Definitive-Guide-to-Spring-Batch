@@ -1,0 +1,10 @@
+# Listing 5-5. Configuring a Database
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_batch
+    username: 'root'
+    password: 'myPassword'
+  batch:
+    initialize-schema: always

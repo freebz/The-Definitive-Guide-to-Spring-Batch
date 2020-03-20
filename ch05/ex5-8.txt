@@ -1,0 +1,18 @@
+Listing 5-8. ExplorerJob Output
+
+2019-01-18 00:01:27.392  INFO 35356 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=explorerJob]] launched with the following
+parameters: [{1=1}]
+2019-01-18 00:01:27.423  INFO 35356 --- [           main] o.s.batch.core.job.
+SimpleStepHandler      : Executing step: [explorerStep]
+There are 2 job instances for the job explorerJob
+They have had the following results
+************************************
+Instance 2 had 1 executions
+      Execution 2 resulted in Exit Status exitCode=UNKNOWN;exitDescription=
+Instance 1 had executions
+      Execution 1 resulted in Exit Status exitCode=COMPLETED;exitDescription=
+2019-01-18 00:01:27.517  INFO 35356 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=explorerJob]] completed with the following
+parameters: [{1=1}] and the following status: [COMPLETED]
+2
