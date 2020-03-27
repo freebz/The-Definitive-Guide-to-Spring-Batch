@@ -1,0 +1,14 @@
+Listing 6-12. Quartz Output
+
+...
+2018-02-16 12:00:13.723  INFO 78906 --- [           main] i.s.b.quartzdemo.QuartzDemo
+Application   : Started QuartzDemoApplication in 1.577 seconds (JVM running for 2.05)
+2018-02-16 12:00:13.759  INFO 78906 --- [eduler_Worker-1] o.s.b.c.l.support.SimpleJob
+Launcher     : Job: [SimpleJob: [name=job]] launched with the following parameters: [{run.id=1}]
+2018-02-16 12:00:13.769  INFO 78906 --- [eduler_Worker-1] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [step1]
+step1 ran!
+2018-02-16 12:00:13.779  INFO 78906 --- [eduler_Worker-1] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJOb: [name=job]] completed with the following parameters: [{run.
+id=1}] and the following status: [COMPLETED]
+...

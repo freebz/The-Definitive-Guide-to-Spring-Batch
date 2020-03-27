@@ -1,0 +1,11 @@
+Listing 6-31. Results from Re-executing transactionJob More Than Once
+
+...
+2018-03-01 23:12:17.205 ERROR 32027 --- [           main] o.s.batch.core.job.Abstract
+Job           : Encountered fatal error executing job
+
+org.springframework.batch.core.StartLimitExceededException: Maximum start limit exceeded for
+step: importTransactionFileStepStartMax: 2
+      at org.springframework.batch.core.job.SimpleStepHandler.shouldStart(SimpleStepHandler.
+      java:229) ~[spring-batch-core-4.0.0.RELEASE.jar:4.0.0.RELEASE]
+...

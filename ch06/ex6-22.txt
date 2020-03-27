@@ -1,0 +1,17 @@
+Listing 6-22. transactionJob First Run
+
+...
+2018-03-01 22:02:35.770  INFO 36810 --- [           main] o.s.b.a.b.JobLauncherCommandLine
+Runner   : Running default command line with: [transactionFile=/data/transactions.csv,
+summaryFile=file://Users/minella/tmp/summary.xml]
+2018-03-01 22:02:35.873  INFO 36810 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [FlowJob: [name=transactionJob]] launched with the following
+parameters: [{transactionFile=/data/transactions.csv, summaryFile=file://Users/minella/tmp/
+summary.xml}]
+2018-03-01 22:02:35.918  INFO 36810 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [importTransactionFileStep]
+2018-03-01 22:03:16.435  INFO 36810 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [FlowJob: [name=transactionJob]] completed with the following
+parameters: [{transactionFile=/data/transactions.csv, summaryFile=file://Users/minella/tmp/
+summary.xml}] and the following status: [STOPPED]
+...

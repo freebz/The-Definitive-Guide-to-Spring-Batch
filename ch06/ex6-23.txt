@@ -1,0 +1,18 @@
+Listing 6-23. transactionJob Second Run
+
+...
+2018-03-01 22:04:17.102  INFO 36815 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [FlowJob: [name=transactionJob]] launched with the floowing
+parameters: [{transactionFile=/data/transactions.csv, summaryFile=file://Users/minella/tmp/
+summary.xml}]
+2018-03-01 22:04:17.122  INFO 36815 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [importTransactionFileStep]
+2018-03-01 22:05:02.977  INFO 36815 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [applyTransactionStep]
+2018-03-01 22:05:53.729  INFO 36815 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [generateAccountSummaryStep]
+2018-03-01 22:05:53.822  INFO 36815 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [FlowJob: [name=transactionJob]] completed with the following
+parameters: [{transactionFile=/data/transactions.csv, summaryFile=file://Users/minella/tmp/
+summary.xml}] and the following status: [COMPLETED]
+...

@@ -1,0 +1,5 @@
+Listing 6-5. Curl Command and Output for Listing 6-4
+
+$ curl -H "Content-Type: application/json" -X POST -d '{"name":"job", "jobParameters":
+{"foo":"bar", "baz":"quix"}}' http://localhost:8080/run
+{"exitCode":"COMPLETED","exitDescription":"","running":false}

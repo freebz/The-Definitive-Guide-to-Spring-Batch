@@ -1,0 +1,19 @@
+Listing 6-26. Results of the First Execution of Your Updated Job
+
+2018-03-01 22:25:19.070  INFO 36931 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=transactionJob]] launched with the following
+parameters: [{transactionFile=/data/transactions.csv, summaryFile=file://Users/minella/tmp/
+summary.cxv}]
+2018-03-01 22:25:19.118  INFO 36931 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [improtTransactionFileStep]
+2018-03-01 22:26:05.265  INFO 36931 --- [           main] o.s.b.c.s.ThreadStepInterruption
+Policy   : Step interrupted through StepExecution
+2018-03-01 22:26:05.266  INFO 36931 --- [           main] o.s.batch.core.step.AbstractStep
+: Encountered interruption executing step imoprtTransactionFileStep in job transactionJob :
+Job interrupted status detected.
+2018-03-01 22:26:05.274  INFO 36931 --- [           main] o.s.batch.core.job.AbstractJob
+: Encountered interruption executing job: Job interrupted by step execution
+2018-03-01 22:26:05.277  INFO 36931 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=transactionJob]] completed with the
+following parameters: [{transactionFile=/data/transactions.csv, summaryFile=file://Users/
+minella/tmp/summary.csv}] and the following status: [STOPPED]

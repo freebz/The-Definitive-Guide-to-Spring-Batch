@@ -1,0 +1,11 @@
+Listing 6-8. Output of Running the Job with RunIdIncrementer
+
+2018-02-08 16:21:34.658  INFO 22990 --- [nio-8080-exec-1] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=job]] launched with the following parameters:
+[{baz=quix, foo=bar, run.id=1}]
+2018-02-08 16:21:34.669  INFO 22990 --- [nio-8080-exec-1] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [step1]
+step1 ran today!
+2018-02-08 16:21:34.679  INFO 22990 --- [nio-8080-exec1] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=job]] completed with the following parameters:
+[{baz=quix, foo=bar, run.id=1}] and the following status: [COMPLETED]

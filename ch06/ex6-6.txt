@@ -1,0 +1,10 @@
+Listing 6-6. REST API Output
+
+2018-02-08 12:07:56:327  INFO 22104 --- [nio-8080-exec-1] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=job]] launched with the following parameters:
+2018-02-08 12:07:56:345  INFO 22104 --- [nio-8080-exec-1] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [step1]
+step1 ran!
+2018-02-08 12:07:56:362  INFO 22104 --- [nio-8080-exec-1] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=job]] completed with the following parameters:
+[{baz=quix, foo=bar}] and the following status: [COMPLETED]
