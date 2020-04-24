@@ -1,0 +1,8 @@
+<!-- Listing 7-59. Spring Boot Starter for MongoDB -->
+
+...
+<dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-mongodb</artifactId>
+</dependency>
+...

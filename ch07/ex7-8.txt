@@ -1,0 +1,12 @@
+Listing 7-8. Results of the copyJob
+
+2019-01-28 16:11:44.089  INFO 54762 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=job] launched with the following
+parameters: [{customerFile=/input/customerFixedWidth.txt}]
+2019-01-28 16:11:44.159  INFO 54762 --- [           main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [copyFileStep]
+Customer{firstName='Aimee', middleInitial='C', lastName='Hoover', addressNumber='7341',
+street='Vel Avenue', city='Mobile', state='AL', zipCode='35928'}
+Customer{firstName='Jonas', middleInitial='U', lastName='Gilbert', addressNumber='8852',
+street='In St.', city='Saint Paul', state='MN', zipCode='57321'}
+ ...

@@ -1,0 +1,6 @@
+Listing 7-76. Output of the CustomerItemLogger
+
+2011-05-03 23:49:22,148 ERROR main [com.apress.springbatch.chapter7.CustomerItemListener] -
+<An error occured while processing the 1 line of the file.  Below was the faulty input.
+Michael   TMinella   123   4th Street          Chicago  IL60606ABCDE
+>

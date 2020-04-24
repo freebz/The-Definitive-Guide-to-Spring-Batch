@@ -1,0 +1,14 @@
+Listing 7-33. Output from Multiline Job
+
+Warren Q. Darrow has 1 transactions.
+Ann V. Gates has no transactions.
+Erica I. Jobs has 5 transactions.
+Joseph Z. Williams has 2 transactions.
+Estelle Y. Laflamme has 3 transactions.
+Robert X. Wilson has 1 transactions.
+Clement A. Blair has 1 transactions.
+Chana B. Meyer has 1 transactions.
+Kay C. Quinonez has 1 transactions.
+Kristen D. Seibert has 1 transactions.
+Lee E. Troupe has 1 transactions.
+Edgar F. Christian has 1 transactions.

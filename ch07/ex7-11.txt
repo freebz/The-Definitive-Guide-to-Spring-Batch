@@ -1,0 +1,3 @@
+Listing 7-11. Parsing a Delimited File with the Quote Character Configured
+
+Michael,T,Minella,#123,4th Street#,Chicago,IL,60606

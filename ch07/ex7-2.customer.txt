@@ -1,0 +1,6 @@
+Listing 7-2. customer.txt, the Fixed-Width File
+
+Aimee      CHoover        7341Vel Avenue      Mobile          AL35928
+Jonas      UGilbert       8852In St.          Saint Paul      MN57321
+Regan      MBaxter        4851Nec Av.         Gulfport        MS3319
+Sydnee     NRobinson      894 Ornare. AVE     Olarthe         KS25606

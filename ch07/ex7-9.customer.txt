@@ -1,0 +1,5 @@
+Listing 7-9. A Delimited customerFile
+
+Aimee,C,Ho,7341,Vel Avenue,Mobile,AL,35928
+Jonas,U,Gilbet,8852,In St.,Saint Paul,MN,57321
+Regan,M,Baxter,4851,Nec Av.,Gulfport,MS,33193

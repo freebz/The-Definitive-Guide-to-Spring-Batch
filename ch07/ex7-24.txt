@@ -1,0 +1,22 @@
+Listing 7-24. Results of Running the copyJob job with Multiple Record Formats
+
+2019-01-28 22:41:09.812  INFO 60498 --- [           main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [copyFileStep]
+Customer{firstName='Warren', middleInitial='Q', lastName='Darrow', address='8272 4th
+Street', city='New York', state='IL', zipCode='76091'}
+Transaction{accountNumber='1165965', transactionDate=Sat Jan 22 00:13:29 CST 2011,
+amount=51.43}
+Customer{firstName='Ann', middleInitial='V', lastName='Gates', address='9247 Infinite Loop
+Drive', city='Hollywood', state='NE', zipCode='37612'}
+Customer{firstName='Erica', middleInitial='I', lastName='Jobs', address='8875 Farnam
+Street', city='Aurora', state='IL', zipCode='36314'}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 21 20:40:52 CST 2011,
+amount=-14.83}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 21 15:50:17 CST 2011,
+amount=-45.45}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 21 16:52:46 CST 2011,
+amount=-74.6}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 22 13:51:05 CST 2011,
+amount=48.55}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 21 16:51:59 CST 2011,
+amount=98.53}

@@ -1,0 +1,13 @@
+Listing 7.70. The Step Executon Context
+
+mysql> select * from BATCH_STEP_EXECUTION_CONTEXT where STEP_EXECUTION_ID = 8495;
++-------------------+-----------------------------------------------------------------------
+-----+------------------------+
+| STEP_EXECUTION_ID | SHORT_CONTEXT
+| SERIALIZED_CONTEXT |
++-------------------+-----------------------------------------------------------------------
+-----+------------------------+
+|              8495 | {"customerItemReader.current.index.customers":50,"batch.
+taskletType":"org.springwork.batch.core.step.item.ChunckOrientedTasklet","batch.
+stepType":"org.springframework.batch.core.step.tasklet.TaskletStep"} |
+NULL               |

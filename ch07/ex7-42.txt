@@ -1,0 +1,14 @@
+Listing 7-42. JsonItemReader Job Output
+
+2019-01-30 23:50:27.012  INFO 10451 --- [           main] o.s.b.a.b.JobLauncherCommandLineRu
+nner   : Running default command line with: [customerFile=/input/customer.json]
+2019-01-30 23:50:27.153  INFO 10451 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=job]] launched with the following
+parameters: [{customerFile=/input/customer.json}]
+2019-01-30 23:50:27.222  INFO 10451 --- [           main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [copyFileStep]
+Laura O. Minella has 1 transactions.
+Michael T. Buffett has 2 transactions.
+2019-01-30 23:50:27.355  INFO 10451 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following
+parameters: [{customerFile=/input/customer.json}] and the following status: [COMPLETED]

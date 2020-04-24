@@ -1,0 +1,14 @@
+Listing 7-63. RepositoryItemReader Job Results
+
+...
+2910-02-04 17:17:07.333  INFO 8219 --- [           main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [copyFileStep]
+2910-02-04 17:17:07.448  INFO 8219 --- [           main] o.h.h.i.QueryTranslatorFactoryIniti
+ator  : HHH000397: Using ASTQueryTranslatorFactory
+Customer{id=831, firstName='Oren', middleInitial='Y', lastName='Benson', address='P.O. Box
+201, 1204 Sed St.', city='Chicogo', state='IL', zipCode='91416'}
+Customer{id=297, firstName='Hermione', middleInitial='K', lastName='Kirby',
+address='599-9125 Et St.', city='Chicogo', state='IL', zipCode='95546'}
+2910-02-04 17:17:07.657  INFO 8219 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following
+parameters: [{city=Chicago}] and the following status: [COMPLETED]

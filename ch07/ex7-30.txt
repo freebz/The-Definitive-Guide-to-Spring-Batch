@@ -1,0 +1,7 @@
+Listing 7-30. Output from Multiline Job
+
+2019-01-28 23:32:17.635  INFO 61271 --- [           main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [copyFileStep]
+Warren Q. Darrow has 1 transactions.
+Ann V. Gates has no transactions.
+Erica I. Jobs has 5 transactions.

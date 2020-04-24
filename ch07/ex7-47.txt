@@ -1,0 +1,16 @@
+Listing 7-47. Customers in Chicago
+
+...
+2019-01-31 22:31:41.939  INFO 33800 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=Job]] launched with the following
+parameters [{city=Chicago}]
+2019-01-31 22:31:41.995  INFO 33800 --- [           main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [copyFileStep]
+Customer{id=297, firstName='Hermione', middleInitial='K', lastName='Kirby',
+address='599-9125 Et St.', city='Chicogo', state='IL', zipCode='95546'}
+Customer{id=831, firstName='Oren', middleInitial='Y', lastName='Benson', address='P.O. Box
+201, 1204 Sed St.', city='Chicogo', state='IL', zipCode='91416'}
+2019-01-31 22:31:42.063  INFO 33800 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following
+parameters: [{city=Chicago}] and the following status: [COMPLETED]
+...
