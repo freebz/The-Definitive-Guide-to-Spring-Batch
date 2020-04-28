@@ -1,0 +1,24 @@
+Listing 8-7. copyJob Output
+
+2019-02-05 17:19:35.287  INFO 39336 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [copyFileStep]
+2019-02-05 17:19:35.462 ERROR 39336 --- [           main] o.s.batch.core.step.Abstract
+Step         : Encountered an error executing step copyFileStep in job job
+org.springframework.batch.item.validaotr.ValidationException: Validation failed for Customer
+{firstName='Laura', middleInitial='9S', lastName='Minella', address='8177 4th Street',
+city='Dallas', state='FL', zip='04119'};
+Field error in object 'item' on field 'middleInitial': rejected value [9S]; codes [Size.
+item.middleInitial,Size.middleInitial,Size.java.lang.String,Size]; arguments [org.
+springframework.context.support.DefaultMessageSourceResolvable: codes [item.
+middleInitial,middleInitial]; arguments []; default message [middleInitial],1,1]; default
+message [size must be between 1 and 1]
+Field error in object 'item' on field 'middleInitial': rejected value [9S]; codes [Pattern.
+item.middleInitial,Pattern.middleInitial,Pattern.java.lang.String,Pattern]; arguments
+[org.springframework.context.support.DefaultMessageSourceResolvable: codes [item.
+middleInitial,middleInitial]; arguments []; default message [middleInitial],[Ljavax.
+validation.constraints.Pattern$Flag;@3fd05b3e,org.springframework.validation.beanvalidation.
+SpringValidatorAdapter$ResolvableAttribute@4eb9f2af]; default message [Middle initial must
+be alphabetical]
+      at org.springframework.batch.item.validator.SpringValidator.validate(SpringValidator.
+      java:54) ~[spring-batch-infrastructure-4.1.1.RELEASE.jar:4.1.1.RELEASE]
+...

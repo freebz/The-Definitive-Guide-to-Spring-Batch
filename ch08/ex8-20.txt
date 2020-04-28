@@ -1,0 +1,12 @@
+Listing 8-20. CompositeItemProcessor Job Output
+
+...
+2019-02-05 23:46:49.884  INFO 46774 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [copyFileStep]
+Customer{firstName='RICHARD', middleInitial='N', lastName='DARROW', address='5570 isabella
+ave', city='st. louis', state='il', zip='58540'}
+Customer{firstName='BARACK', middleInitial='G', lastName='DONNELLY', address='7844 s.
+greenwood ave', city='houston', state='ca', zip='38635'}
+Customer{firstName='ANN', middleInitial='Z', lastName='BENES', address='2447 s. greenwood
+ave', city='las vegas', state='ny', zip='55366'}
+...

@@ -1,0 +1,15 @@
+Listing 8-23. Output from the ClassifierCompositeItemProcessor Job
+
+...
+2019-02-06 00:17:11.833  INFO 47362 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=job]] launched with the follwoing parameters:
+[{customerFile=/input/customer.csv, script=/lowerCase.js}]
+2019-02-06 00:17:11.882  INFO 47362 --- [           main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [copyFileStep]
+Customer{firstName='Richard', middleInitial='N', lastName='Darrow', address='5570 isabella
+ave', city='st. louis', state='il', zip='58540'}
+Customer{firstName='BARACK', middleInitial='G', lastName='DONNELLY', address='7844 s.
+greenwood Ave', city='Houston', state='CA', zip='38635'}
+Customer{firstName='Ann', middleInitial='Z', lastName='Benes', address='2447 s. greenwood
+ave', city='las vegas', state='ny', zip='55366'}
+...

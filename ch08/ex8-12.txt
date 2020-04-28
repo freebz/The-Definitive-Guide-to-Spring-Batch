@@ -1,0 +1,16 @@
+Listing 8-12. ItemProcessorAdapterJob Output
+
+...
+2019-02-05 22:23:19.185  INFO 45123 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [copyFileStep]
+Customer{firstName='RICHARD', middleInitial='N', lastName='DARROW', address='5570 Isabella
+Ave', city='St. Louis', state='IL', zip=58540'}
+Customer{firstName='BARACK', middleInitial='G', lastName='DONNELLY', address='7844 S.
+Greenwood Ave', city='Houston', state='CA', zip='38635'}
+Customer{firstName='ANN', middleInitial='Z', lastName='BENES', address='2447 S. Greenwood
+Ave, city='Las Vegas', state='NY', zip='55366'}
+Customer{firstName='LAURA', middleInitial='9S', lastName='MINELLA', address='8177 4th
+Street', city='Dallas', state='FL', zip='04119'}
+Customer{firstName='ERICA', middleInitial='Z', lastName='GATES', address='3141 Farnam
+Street', city='Omaha', state='CA', zip='57640'}
+...

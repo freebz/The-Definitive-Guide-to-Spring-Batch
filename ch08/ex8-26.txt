@@ -1,0 +1,20 @@
+Listing 8-26. Output from the Custom ItemProcessor Job
+
+...
+2019-02-06 00:31:30.808  INFO 47626 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [copyFileStep]
+Customer{firstName='Barack', middleInitial='G', lastName='Donnelly', address='7844 S.
+Greenwood Ave', city='Houston', state='CA', zip='38635'}
+Customer{firstName='Laura', middleInitial='9S', lastName='Minella', address='8177 4th
+Street', city='Dallas', state='FL', zip='04119'}
+Customer{firstName='Warren', middleInitial='L', lastName='Darrow', address='4686 Mt. Lee
+Drive', city='St. Louis', state='NY', zip='94935'}
+Customer{firstName='Harry', middleInitial='T', lastName='Smith', address='3273 Isabella
+Ave', city='Houston', state='FL', zip='97261'}
+Customer{firstName='Jonas', middleInitial='U', lastName='Gilbert', address='8852 In St.',
+city='Saint Paul', state='MN', zip='57321'}
+Customer{firstName='Regan', middleInitial='M', lastName='Darrow', address='4851 Nec Av.',
+city='Gulfport', state='MS', zip=33193'}
+2019-02-06 00:31:30.949  INFO 47626 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following
+parameters: [{customerFile=/input/customer.csv}] and the following status: [COMPLETED]

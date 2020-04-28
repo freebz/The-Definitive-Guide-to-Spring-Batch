@@ -1,0 +1,10 @@
+Listing 8-27. Filter Count in the Job Repository
+
+mysql> select step_execution_id as id, step_name, status, commit_count, read_count, filter_
+count, write_count from SPRING_BATCH.BATCH_STEP_EXECUTION;
++----+--------------+-----------+--------------+------------+--------------+-------------+
+| id | step_name    | status    | commit_count | read_count | filter_count | write_count |
++----+--------------+-----------+--------------+------------+--------------+-------------+
+|  1 | copyFileStep | COMPLETED |            4 |         15 |            9 |           6 |
++----+--------------+-----------+--------------+------------+--------------+-------------+
+1 row in set (0.01. sec)
