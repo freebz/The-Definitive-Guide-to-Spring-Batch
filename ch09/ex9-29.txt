@@ -1,0 +1,17 @@
+Listing 9-29. Job Results with jdbcBatchWriter
+
+mysql> select id, first_name, middle_initial as middle, last_name, address, city, state as
+st, zip from SPRING_BATCH.CUSTOMER;
++----+------------+--------+-----------+--------------------------+-----+-------+
+| id | first_name | middle | last_name | address                  | st  | zip   |
++----+------------+--------+-----------+--------------------------+-----+-------+
+|  1 | Richard    | N      | Darrow    | 5570 Isabella Ave        | IL  | 58540 |
+|  2 | Warren     | L      | Darrow    | 4686 Mt. Lee Drive       | NY  | 94935 |
+|  3 | Barack     | G      | Donnelly  | 7844 S. Greenwood Ave    | CA  | 38635 | 
+|  4 | Ann        | Z      | Benes     | 2447 S. Greenwood Ave    | NY  | 55366 |
+|  5 | Erica      | Z      | Gates     | 3141 Farnam Street       | CA  | 57640 |
+|  6 | Warren     | M      | Williams  | 6670 S. Greenwood Ave    | FL  | 37288 |
+|  7 | Harry      | T      | Darrow    | 3273 Isabella Ave        | FL  | 97261 |
+|  8 | Steve      | O      | Darrow    | 8407 Infinite Loop Drive | WA  | 90520 |
++----+------------+--------+-----------+--------------------------+-----+-------+
+8 rows in set (0.00 sec)

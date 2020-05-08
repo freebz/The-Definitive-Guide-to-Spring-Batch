@@ -1,0 +1,21 @@
+Listing 9-16. Results of a Job That Writes to an Existing File That Shouldn't Be There
+
+2018-04-16 15:38:55.269  INFO 76152 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [delimitedStep]
+2018-04-16 15:38:55.316  INFO 76152 --- [           main] o.s.batch.core.step.
+AbstractStep         : Encountered an error executing step delimitedStep in job delimitedJob
+
+org.springframework.batch.item.ItemStreamException: File already exists: [/Users/mminella/
+Documents/IntelliJWorkspace/def-guide-spring-batch/Chapter9/target/formattedCustomers.txt]
+      at org.springframework.batch.item.util.FileUtils.setUpOutputFile(FileUtils.java:56)
+      ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+      at org.springframework.batch.item.file.FlatFileItemWriter$OutputState.initializeBuff
+      eredWriter(FlatFileItemWriter.java:572) ~[spring-batch-infrastructure-4.0.1.RELEASE.
+      jar:4.0.1.RELEASE]
+      at org.springframework.batch.item.file.FlatFileItemWriter$OutputState.
+      access$OOO(FlatFileItemWriter.java:414) ~[spring-batch-infrastructure-4.0.1.RELEASE.
+      jar:4.0.1.RELEASE]
+      at org.springframework.batch.item.file.FlatFileItemWriter.doOpen(FlatFileItemWriter.
+      java:348) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+      at org.springframework.batch.item.file.FlatFileItemWriter.open(FlatFileItemWriter.
+      java:338) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]

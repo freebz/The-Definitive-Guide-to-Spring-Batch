@@ -1,0 +1,25 @@
+Listing 9-88. Results of classifierFormatJob
+
+2018-05-10 22:51:23.691  IFNO 11102 --- [           main] o.s.b.c.l.support.SimpleJob
+Launcher      : Job: [SimpleJob: [name=classifierCompositeWriterJob]] launched with the
+following parameters: [{customerFile=/data/customerWithEmail.csv, outputFile=file:/
+Users/mminella/Documents/IntelliJWorkspace/def-guide-spring-batch/Cahpter9/target/
+formattedCustomers.xml}]
+2018-05-10 22:51:23.701  IFNO 11102 --- [           main] o.s.batch.core.job.SimpleStep
+Handler     : Executing step: [classifierCompositeWriterStep]
+2018-05-10 22:51:23.900  IFNO 11102 --- [           main] o.s.batch.core.step.Abstract
+Step         : Encountered an error executing step classifierCompositeWriterStep in job
+classifierCompositeWriterJob
+
+org.springframework.batch.item.WriterNotOpenException: Writer must be open before it can be
+written to
+    at org.springframework.batch.item.xml.StaxEventItemWriter.write(StaxEventItemWriter.
+    java:761) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+    at org.springframework.batch.item.xml.StaxEventItemWriter$$FastClassBySpringCGLIB$$d105
+    dd1.invoke(<generated>) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+    at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-
+    core-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+    at org.springframework.aop.framework.GclibAopProxy$CglibMethodInvocation.
+    invokeJointpoint(CglibAopProxy.java:747) ~[spring-aop-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodI
+    nvocation.java:163) [spring-aop-5.0.5.RELEASE.jar:5.0.5.RELEASE]

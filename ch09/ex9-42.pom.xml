@@ -1,0 +1,8 @@
+<!-- Listing 9-42. Noe4j Dependencies -->
+
+...
+<dependency>
+        <groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-neo4j</artifactId>
+</dependency>
+...

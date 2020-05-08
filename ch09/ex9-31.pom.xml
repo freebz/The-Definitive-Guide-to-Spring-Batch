@@ -1,0 +1,8 @@
+<!-- Listing 9-31. POM Additions for Supporting Hibernate -->
+
+...
+<dependency>
+        <groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+...

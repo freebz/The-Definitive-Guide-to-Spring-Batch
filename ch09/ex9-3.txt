@@ -1,0 +1,12 @@
+Listing 9-3. Formatted Customer Output
+
+Richard N Darrow lives at 5570 Isabella Ave in St. Louis, IL.
+Warren L Darrow lives at 4686 Mt. Lee Drive in St. Louis, NY.
+Barack G Donnelly lives at 7844 S. Greenwood Ave in Houston, CA.
+Ann Z Benes lives at 2447 S. Greenwood Ave in Las Vegas, NY.
+Laura 9S Minella lives at 8177 4th Street in Dallas, FL.
+Erica Z Gates lives at 3141 Farnam Street in Omaha, CA.
+Warren M Williams lives at 6670 S. Greenwood Ave in Hollywood, FL.
+Harry T Darrow lives at 3273 Isabella Ave in Houston, FL.
+Steve O Darrow lives at 8407 Infinite Loop Drive in Las Vegas, WA.
+Erica Z Minella lives at 513 S. Greenwood Ave in Miami, IL.

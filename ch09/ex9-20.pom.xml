@@ -1,0 +1,13 @@
+<!-- Listing 9-20. Spring's OXM Library Maven Dependency -->
+
+...
+<dependency>
+        <groupId>org.springframework</groupId>
+	<artifactId>spring-oxm</artifactId>
+</dependency>
+<dependency>
+        <groupId>com.thoughtworks.xstream</groupId>
+	<artifactId>xstream</artifactId>
+	<version>1.4.10</version>
+</dependency>
+ ...

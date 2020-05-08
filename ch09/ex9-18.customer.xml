@@ -1,0 +1,16 @@
+<!-- Listing 9-18. customer.xml -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+  <customer>
+    <id>0</id>
+    <firstName>Richard</firstName>
+    <middleInitial>N</middleInitial>
+    <lastName>Darrow</lastName>
+    <address>5570 Isabella Ave</address>
+    <city>St. Louis</city>
+    <state>IL</state>
+    <zip>58540</zip>
+  </customer>
+    ...
+</customers>

@@ -1,0 +1,4 @@
+Listing 9-77. Results Using ResourceSuffixCreator
+
+michael-minellas-macbook-pro:output mminella$ ls Chapter9/target/customer
+customer1.xml      customer2.xml    customer3.xml    customer4.xml

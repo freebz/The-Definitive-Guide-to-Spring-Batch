@@ -1,0 +1,8 @@
+<!-- Listing 9-66. Java Mail Dependency -->
+
+...
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-mail</artifactId>
+</dependency>
+...

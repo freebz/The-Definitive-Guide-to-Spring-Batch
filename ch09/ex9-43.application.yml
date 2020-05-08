@@ -1,0 +1,11 @@
+# Listing 9-43. Neo4j Dependencies
+
+spring:
+  data:
+...
+    neo4j:
+      username: neo4j
+      password: password
+      embedded:
+        enabled: false
+      uri: bolt://localhost:7687

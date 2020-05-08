@@ -1,0 +1,47 @@
+Listing 9-58. Output of formatJob Using PropertyExtractingDelegatingItemWriter
+
+2018-05-03 22:15:06.509  INFO 62192 --- [            main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=propertiesFormatJob]] launched with the
+following parameters: [{customerFile=/data/customer.csv, outputFile=file:/Users/mminella/
+Documents/IntelliJWorkspace/def-guide-spring-batch/Chapter9/target/formattedCustomers.xml}]
+2018-05-03 22:15:06.523  INFO 62192 --- [            main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [formatStep]
+I just saved the address:
+5570 Isabella Ave
+St. Louis, IL
+58540
+I just saved the address:
+4686 Mt. Lee Drive
+St. Louis, NY
+94935
+I just saved the address:
+7844 S. Greenwood Ave
+Houston, CA
+38635
+I just saved the address:
+Las Vegas, NY
+55366
+I just saved the address:
+3141 Farnam Street
+Omaha, CA
+57640
+I just saved the address:
+6670 S. Greenwood Ave
+Hollywood, FL
+37288
+I just saved the address:
+3273 Isabella Ave
+Houston, FL
+97261
+I just saved the address:
+8407 Infinite Loop Drive
+Las Vegas, WA
+90520
+2018-05-03 22:15:06.598  INFO 62192 --- [            main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [SimpleJob: [name=propertiesFormatJob]] completed with the
+following parameters: [{customerFile=/data/customer.csv, outputFile=file:/Users/mminella/
+Documents/IntelliJWorkspace/def-guide-spring-batch/Chapter9/target/formattedCustomers.xml}]
+and the following status: [COMPLETED]
+2018-05-03 22:15:06.599  INFO 62192 --- [            main] s.c.a.AnnotationConfigApplication
+Context : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext
+@22635ba0: startup date [Thu May 03 22:15:04 CDT 2018]; root of context hierarchy

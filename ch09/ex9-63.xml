@@ -1,0 +1,27 @@
+<!-- Listing 9-63. Sample Output from the JMS Version of formatJob -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+	<customer>
+		<id>0</id>
+		<firstName>Richard</firstName>
+		<middleInitial>N</middleInitial>
+		<lastName>Darrow</lastName>
+		<address>5570 Isabella Ave</address>
+		<city>St. Louis</city>
+		<state>IL</state>
+		<zip>58540</zip>
+	</customer>
+
+	<customer>
+		<id>0</id>
+		<firstName>Warren</firstName>
+		<middleInitial>L</middleInitial>
+		<lastName>Darrow</lastName>
+		<address>4686 Mt. Lee Drive</address>
+		<city>St. Louis</city>
+		<state>NY</state>
+		<zip>94935</zip>
+	</customer>
+	...
+</customers>
