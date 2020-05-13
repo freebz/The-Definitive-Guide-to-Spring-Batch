@@ -1,0 +1,22 @@
+Listing 10-34. A Sample Statement
+
+                                                                             Customer Service Number
+                                                                                      (800) 867-5309
+										      Available 24/7
+Elliot Winslade                                                                       Apress Banking
+3 Clyde Gallagher Parkway                                                      1060 West Addison St.
+San Antonio, Texas 78250                                                           Chicago, IL 60613
+
+Your Account Summary                                           Statement Period 05/08/18 to 06/20/18
+
+                                                            Total Debit:           0.00
+							    Total Credit:          0.00
+						    	    Balance:           24082.61
+
+Your Account Summary                                           Statement Period 05/06/18 to 06/20/18
+
+               06/05/18            Quinu                                       10733.88
+	       06/15/18            Jabbercube                                  -1061.00
+                                                            Total Debit:       -1061.00
+							    Total Credit:      10733.88
+							    Balance:           11413.68

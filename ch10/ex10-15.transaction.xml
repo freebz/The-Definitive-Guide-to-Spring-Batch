@@ -1,0 +1,22 @@
+<!-- Listing 10-15. Transaction File -->
+
+<?xml version='1.0' encoding='UTF-8'?>
+<transactions>
+	<transaction>
+		<transactionId>2462744</transactionId>
+		<accountId>405</accountId>
+		<description>Skinix</description>
+		<credit/>
+		<debit>-438</debit>
+		<timestamp>2018-06-01 19:39:53</timestamp>
+	</transaction>
+	<transaction>
+		<transactionId>4243424</transactionId>
+		<accountId>584</accountId>
+		<description>Yakidoo</description>
+		<credit>8681.98</credit>
+		<debit/>
+		<timestamp>2018-06-12 18:39:09</timestamp>
+	</transaction>
+...
+</transactions>

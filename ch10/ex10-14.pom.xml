@@ -1,0 +1,6 @@
+<!-- Listing 10-14. MySQL Dependency -->
+
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+</dependency>
