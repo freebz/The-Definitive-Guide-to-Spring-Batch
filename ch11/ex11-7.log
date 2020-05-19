@@ -1,0 +1,17 @@
+Listing 11-7. parallelStepsJob Logs
+
+2018-12-03 15:46:09.575  INFO 44705 --- [           main] o.s.b.c.l.support.
+SimpleJobLauncher      : Job: [FlowJob: [name=parallelStepJob]] launched with the following
+parameters:
+[{inputXmlFile=/data/xml/bigtransactions.xml, inputFlatFile=/data/csv/bigtransactions.csv}]
+2018-12-03 15:46:09.661  INFO 44705 --- [cTaskExecutor-2] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [step1]
+2018-12-03 15:46:09.670  INFO 44705 --- [cTaskExecutor-1] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [step2]
+2018-12-03 15:46:09.819  INFO 44705 --- [cTaskExecutor-2] o.s.oxm.jaxb.Jaxb2Marshaller
+: Creating JAXBContext with classes to be bound [class io.spring.batch.scalingdemos.domain.
+Transaction]
+2018-12-03 15:46:09.960  INFO 44705 --- [           main] o.s..c.l.support.
+SimpleJobLauncher      : Job: [FlowJob: [name=parellelStepJob]] completed with the
+following parameters: [{inputXmlFile=/data/xml/bigtransactions.xml, inputFlatFile=/data/csv/
+bigtransactions.csv}] and the following status: [COMPLETED]

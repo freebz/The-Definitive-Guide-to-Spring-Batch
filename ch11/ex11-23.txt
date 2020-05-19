@@ -1,0 +1,23 @@
+Listing 11-23. Launching Worker JVMs
+
+2019-01-05 10:34:16.533  INFO 67745 --- [           main] o.s.c.t.b.l.TaskBatchExecutionList
+ener   : The job execution id 1 was run within the task execution 1
+2019-01-05 10:34:16.562  INFO 67745 --- [           main] o.s.batch.core.job.
+SimpleStepHandler     : Executing step: [step1]
+2019-01-05 10:34:16.640 DEBUG 67745 --- [           main] o.s.c.t.b.p.DeployerPartitionHandl
+er     : 3 partitions were returned
+2019-01-05 10:34:16.684  INFO 67745 --- [           main] o.s.c.d.spi.local.
+LocalTaskLauncher      : launching task PartitionedBatchJobTask-a5e75fd0-0c90-49b3-9e2b-
+428d5182765c
+   Logs will be in /var/folders/6s/2mwfrcbx5tg1mxr251bbl44m0000gn/T/spring-cloud-
+dataflow-9037594903989022167/PartitionedBatchJobTask-1546706056645/PartitionedBatchJobTask-
+a5e75fd0-0c90-49b3-9e2b-428d5182765c
+2019-01-05 10:34:16.697  INFO 67745 --- [           main] o.s.c.d.spi.local.
+LocalTaskLauncher      : launching task PartitionedBatchJobTask-4a4c7152-8f3c-48ce-84d3-
+cac0919d4385
+   Logs will be in /var/folders/6s/2mwfrcbx5tg1mxr251bbl44m0000gn/T/spring-cloud-
+dataflow-9037594903989022167/PartitionedBatchJobTask-1546706056645/PartitionedBatchJobTask-
+4a4c7152-8f3c-48ce-84d3-cac0919d4385
+2019-01-05 10:34:16.709  INFO 67745 --- [           main] o.s.c.d.spi.local.
+LocalTaskLauncher      : launching task PartitionedBatchJobTask-1546706056699/PartitionedBatchJobTask-
+705cf4dd-b708-491f-8191-f6f520cc018c

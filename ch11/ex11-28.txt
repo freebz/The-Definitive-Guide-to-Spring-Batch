@@ -1,0 +1,10 @@
+Listing 11-28. Remote Chunking Job Output
+
+mysql> select step_name, status, commit_count, read_count, write_count from SCALING.BATCH_
+STEP_EXECUTION;
++------------------+-----------+--------------+------------+-------------+
+| step_name        | status    | commit_count | read_count | write_count |
++------------------+-----------+--------------+------------+-------------+
+| step1            | COMPLETED |          303 |      30000 |       30000 |
++------------------+-----------+--------------+------------+-------------+
+1 rows in set (0.01 sec)

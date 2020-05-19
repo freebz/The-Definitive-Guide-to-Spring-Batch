@@ -1,0 +1,13 @@
+Listing 11-25. Partitioned Job Output
+
+mysql> select step_name, status, commit_count, read_count, write_count from SCALING.BATCH_
+STEP_EXECUTION;
++-----------------+-----------+--------------+------------+-------------+
+| step_name       | status    | commit_count | read_count | write_count |
++-----------------+-----------+--------------+------------+-------------+
+| step1           | COMPLETED |          303 |      30000 |       30000 |
+| step:partition1 | COMPLETED |          101 |      10000 |       10000 |
+| step:partition0 | COMPLETED |          101 |      10000 |       10000 |
+| step:partition2 | COMPLETED |          101 |      10000 |       10000 |
++-----------------+-----------+--------------+------------+-------------+
+4 rows in set (0.01 sec)

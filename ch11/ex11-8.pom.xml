@@ -1,0 +1,8 @@
+<!-- Listing 11-8. spring-batch-integration -->
+
+...
+<dependency>
+	<groupId>org.springframework.batch</groupId>
+	<artifactId>spring-batch-integration</artifactId>
+</dependency>
+...

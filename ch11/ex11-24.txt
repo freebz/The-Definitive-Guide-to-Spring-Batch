@@ -1,0 +1,10 @@
+Listing 11-24. jps Output
+
+➡   ~ jps
+68944 RemoteMavenServer
+42899
+88027 partitioned-demo-0.0.1-SNAPSHOT.jar
+88045 partitioned-demo-0.0.1-SNAPSHOT.jar
+88044 partitioned-demo-0.0.1-SNAPSHOT.jar
+88047 Jps
+88046 partitioned-demo-0.0.1-SNAPSHOT.jar

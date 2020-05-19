@@ -1,0 +1,12 @@
+<!-- Listing 11-21. Maven Dependencies for Spring Cloud Task and the Local Deployer -->
+
+...
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-task</artifactId>
+</dependency>
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-deployer-local</artifactId>
+</dependency>
+...
