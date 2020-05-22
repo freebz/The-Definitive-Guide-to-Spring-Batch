@@ -1,0 +1,6 @@
+<!-- Listing 12-19. Spring Cloud Task starter dependency -->
+
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-task</artifactId>
+</dependency>

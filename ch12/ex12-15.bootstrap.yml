@@ -1,0 +1,5 @@
+# Listing 12-15. bootstrap.yml
+
+spring:
+  application:
+    name: rest-service

@@ -1,0 +1,8 @@
+<!-- Listing 12-13. Eureka Dependency -->
+
+...
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-eureka</artifactId>
+</dependency>
+...

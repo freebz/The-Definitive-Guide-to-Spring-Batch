@@ -1,0 +1,7 @@
+Listing 12-11. Encryption Round Trip
+
+➡   config git:(master) ✗ spring encrypt mysecret --key foo
+ea48c11ca890b7cb7ffb37de912c4603d97be9d9b1ec05c7dbd3d2183a1da8ee
+➡   config git:(master) ✗ spring decrypt --key foo
+ea48c11ca890b7cb7ffb37de912c4603d97be9d9b1ec05c7dbd3d2183a1da8ee
+mysecret

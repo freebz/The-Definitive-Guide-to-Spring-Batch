@@ -1,0 +1,24 @@
+# Listing 12-12. cloud-native-batch.yml
+
+spring:
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud_native_batch
+    username: '{cipher}19775a12b552cd22e1530f745a7b842c90d903e60f8a934b072c21454321de17'
+    password: '{cipher}abcdefa44d2db148cd788507068e770fa7b64c4d1980ef6ab86cdefabc118def'
+    schema: schema-mysql.sql
+  batch:
+    initalizr:
+      enabled: false
+job:
+  resource-path: s3://def-guide-spring-batch/inputs/*.csv
+cloud:
+  aws:
+    credentials:
+      accessKey: '{cipher}a7201398734bcd468f5efab785c2b6714042d62844e93f4a436bc4fd2e95fa4bcd
+      26e8fab459c99807d2ef08a212018b'
+      secretKey: '{cipher}40a1bc039598defa78b3129c878afa0d36e1ea55f4849c1c7b92e809416737
+      de05dc45b7eafce3c2bc184811f514e2a9ad5f0a8bb3e503282158b577d27937'
+    region:
+      static: us-east-1
+      auto: false
