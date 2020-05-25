@@ -1,0 +1,9 @@
+<!-- Listing 13-7. HSQLDB's Database Driver Dependency -->
+
+...
+<dependency>
+    <groupId>org.hasldb</groupId>
+    <artifactId>hsqldb</artifactId>
+    <scope>test</scope>
+</dependency>
+...
